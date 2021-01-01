@@ -22,6 +22,11 @@ namespace AspNetTips.MvcSite
 
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.AddRouting(options => {
+				// ルーティングによって動的に生成されるURLの末尾にスラッシュを追加する
+				options.AppendTrailingSlash = true;
+			});
+
 			services.AddControllersWithViews();
 		}
 
