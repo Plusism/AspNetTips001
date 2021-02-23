@@ -1,4 +1,5 @@
 # AspNetTips001
+<br>
 
 ### ASP.NET Core MVC のルーティングによって動的に生成される URL の末尾にスラッシュを追加する方法
 
